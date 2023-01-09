@@ -2,7 +2,7 @@
 //  WordScrambleApp.swift
 //  WordScramble
 //
-//  Created by Jonas Agnezi on 25/08/22.
+//  Created by itsjagnezi on 25/08/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct WordScrambleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+					ContentView()
         }
     }
 }

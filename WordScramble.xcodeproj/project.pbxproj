@@ -11,6 +11,11 @@
 		880A0BD428B85EA500CD9E54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A0BD328B85EA500CD9E54 /* ContentView.swift */; };
 		880A0BD628B85EA600CD9E54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880A0BD528B85EA600CD9E54 /* Assets.xcassets */; };
 		880A0BD928B85EA600CD9E54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880A0BD828B85EA600CD9E54 /* Preview Assets.xcassets */; };
+		88961B55296C89E100C74FBC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 88961B54296C89E100C74FBC /* .gitignore */; };
+		889E976128B94C61005340C8 /* WorkingWithStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889E976028B94C61005340C8 /* WorkingWithStrings.swift */; };
+		88A9381F28B85FC600843FDF /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 88A9381E28B85FC600843FDF /* start.txt */; };
+		88A9382128B85FF000843FDF /* IntroducingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9382028B85FF000843FDF /* IntroducingList.swift */; };
+		88A9382328B94A8C00843FDF /* LoadingResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A9382228B94A8C00843FDF /* LoadingResources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		880A0BD328B85EA500CD9E54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		880A0BD528B85EA600CD9E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880A0BD828B85EA600CD9E54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88961B54296C89E100C74FBC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		889E976028B94C61005340C8 /* WorkingWithStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingWithStrings.swift; sourceTree = "<group>"; };
+		88A9381E28B85FC600843FDF /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = start.txt; path = "../../HackingWithSwift/SwiftUI/project5-files/start.txt"; sourceTree = "<group>"; };
+		88A9382028B85FF000843FDF /* IntroducingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroducingList.swift; sourceTree = "<group>"; };
+		88A9382228B94A8C00843FDF /* LoadingResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		880A0BC528B85EA500CD9E54 = {
 			isa = PBXGroup;
 			children = (
+				88961B54296C89E100C74FBC /* .gitignore */,
 				880A0BD028B85EA500CD9E54 /* WordScramble */,
 				880A0BCF28B85EA500CD9E54 /* Products */,
 			);
@@ -51,6 +62,8 @@
 		880A0BD028B85EA500CD9E54 /* WordScramble */ = {
 			isa = PBXGroup;
 			children = (
+				88961B53296C88CC00C74FBC /* Lessons */,
+				88A9381E28B85FC600843FDF /* start.txt */,
 				880A0BD128B85EA500CD9E54 /* WordScrambleApp.swift */,
 				880A0BD328B85EA500CD9E54 /* ContentView.swift */,
 				880A0BD528B85EA600CD9E54 /* Assets.xcassets */,
@@ -65,6 +78,16 @@
 				880A0BD828B85EA600CD9E54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88961B53296C88CC00C74FBC /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				88A9382028B85FF000843FDF /* IntroducingList.swift */,
+				889E976028B94C61005340C8 /* WorkingWithStrings.swift */,
+				88A9382228B94A8C00843FDF /* LoadingResources.swift */,
+			);
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +148,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88961B55296C89E100C74FBC /* .gitignore in Resources */,
 				880A0BD928B85EA600CD9E54 /* Preview Assets.xcassets in Resources */,
+				88A9381F28B85FC600843FDF /* start.txt in Resources */,
 				880A0BD628B85EA600CD9E54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				880A0BD428B85EA500CD9E54 /* ContentView.swift in Sources */,
+				88A9382128B85FF000843FDF /* IntroducingList.swift in Sources */,
+				88A9382328B94A8C00843FDF /* LoadingResources.swift in Sources */,
+				889E976128B94C61005340C8 /* WorkingWithStrings.swift in Sources */,
 				880A0BD228B85EA500CD9E54 /* WordScrambleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
